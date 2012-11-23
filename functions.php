@@ -68,12 +68,14 @@ remove_filter( 'the_content', 'wpautop' );
  * @since 0.1
  */
 
-function waterstreet_show_template() {
-	global $template;
-	echo '<strong>Template file:</strong>';
-	 print_r($template);
+function nice_show_template() {
+	if ( is_super_admin() ){
+		global $template;
+		echo '<strong>Template file:</strong>';
+	 	print_r($template);
+	 }
 }
-add_action('wp_footer', 'waterstreet_show_template');
+add_action('wp_footer', 'nice_show_template');
 
 
 /* Fetch a url from the_content() and pass it to wordpress's mShots*/
