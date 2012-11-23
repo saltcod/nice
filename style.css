@@ -23,7 +23,7 @@ body {
 }
 #page {
   display: block;
-  border-top: 10px solid #f4f0dc;
+  border: 10px solid rgba(0, 255, 255, 0.13);
   padding-top: 25px;
 }
 header#branding {
@@ -77,11 +77,6 @@ h1 {
 .page-header {
   margin-bottom: 25px;
 }
-h1.page-title {
-  background: #ddd;
-  display: inline-block;
-  padding: 5px;
-}
 /* =Articles
 -------------------------------------------------------------- */
 article {
@@ -111,9 +106,6 @@ article.category-asides .entry-meta {
 .entry-content a:hover {
   background: #d4ebf2;
   border: none;
-}
-.thumbnail {
-  margin: 25px 0 10px;
 }
 .thumbnail img {
   border: 1px solid #eee;
@@ -203,26 +195,11 @@ footer.entry-meta {
 }
 /* =Header
 -------------------------------------------------------------- */
-#site-title {
-  font-weight: bold;
-  margin: .67em 0;
-  font: 18px 'Gotham HTF', "Helvetica Neue", Arial, sans-serif;
-  width: 260px;
+h1.site-title {
+  font: 24px Century Schoolbook, Georgia;
 }
 #site-title a:hover {
   text-decoration: underline;
-}
-#site-description {
-  font-size: 1em;
-  font-weight: normal;
-  margin: 0 0 1em;
-  display: none;
-}
-img.logo:hover {
-  opacity: .6;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  transition: all .5s ease;
 }
 /* =Sidebar
 -------------------------------------------------------------- */

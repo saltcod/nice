@@ -9,7 +9,7 @@ get_header();
 
 <header class="page-header">
 	<h1 class="page-title">
-		<?php wp_title(); ?> 
+		<?php wp_title(); ?>
 	</h1>
 </header>
 
