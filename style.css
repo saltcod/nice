@@ -87,8 +87,10 @@ article {
   padding: 15px;
   background: white;
 }
+article:hover {
+  background: #f9f9f9;
+}
 article img {
-  border: 1px solid #ccc;
   max-width: 100%;
 }
 /* =Header
@@ -200,9 +202,6 @@ h1.site-title {
 }
 /* =Images
 -------------------------------------------------------------- */
-a img {
-  border: none;
-}
 p img {
   margin-bottom: 0.5em;
   /* a small bottom margin prevents content floating under images */
@@ -267,7 +266,7 @@ img.alignright {
 }
 /* =Responsive layout
 -------------------------------------------------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #page {
     width: 100%;
     padding: 0 15px;
