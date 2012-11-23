@@ -12,14 +12,7 @@
  */
 
 /* Enqueue stylesheets / scripts */
- 
-add_action( 'wp_enqueue_scripts', 'bookmarkie_add_scripts' );
- 
-function bookmarkie_add_scripts() {
-    wp_register_style( '1140px', get_template_directory_uri() .'/1140.css');
-    wp_enqueue_style( '1140px' );
-
-}
+  
 
 add_theme_support( 'infinite-scroll', array(
     'container'  => 'content',
